@@ -1,6 +1,5 @@
 {% set name = "pyroll-core" %}
 {% set version = "2.1.8" %}
-{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
