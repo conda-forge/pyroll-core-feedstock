@@ -1,5 +1,5 @@
 {% set name = "pyroll-core" %}
-{% set version = "3.0.4" %}
+{% set version = "3.0.4.post0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyroll_core-{{ version }}.tar.gz
-  sha256: 5522a0b38145fc850e93e2d0089cd740cdebe866c8c6f1487a26c6e1b9ebf83a
+  sha256: 3291898ea06a456b507e0ff744373670c2b6d85dae1791db87d8e851f21e5312
 
 build:
   noarch: python
