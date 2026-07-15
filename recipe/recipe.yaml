@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyroll-core
-  version: "3.1.7"
+  version: "3.1.8"
   python_min: '3.11'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyroll_core-${{ version }}.tar.gz
-  sha256: 38bb6827fb5a5df4ff1b3b479b102f6af575a5ce1a989faf7017567623bf6b89
+  sha256: 3084d87d66fa20bd792297a4feed06b8fb53bae6881766d8f27fcbc9d7aa5f0c
 
 build:
   number: 0
